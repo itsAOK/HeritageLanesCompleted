@@ -1,0 +1,165 @@
+body, html {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.MenuHeader{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6rem;
+}
+.AppetizerHeader{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.OnionRingsWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+.HamburgersFriesWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.DrinksWrapper{
+    display: flex;
+}
+.BarBeveragesWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.OnionRingsText{
+    padding-top: 3rem;
+    padding-right: 25%;
+    padding-left: 1rem;
+}
+.RingsText{
+    padding-bottom: 1rem;
+}
+.RingsHeader{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.HamburgersText{
+    
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+.DrinksText{
+    
+    padding-top: 3rem;
+    padding-left: 6rem;
+}
+.BeveragesText{
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+.ImageWrapper{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.AppetizersWrapper, .BurgersAndHandheldsWrapper, .BeveragesMobileWrapper, 
+.AlcoholicBeveragesWrapper{
+    text-align: center;
+    display: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.BeveragesAlign{
+    display: flex;
+    justify-content: space-around;
+}
+.WrapperDrinks{
+    display: flex;
+    justify-content: space-around;
+}
+.ImageWrapper img{
+    height: auto;
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+.FoodClassHeader{
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .MenuHeader, .AppetizerHeader, .Appetizers, .Burgers, .Burgies {
+        display: none;
+        
+    
+    }
+    .down{
+        display: none;
+    }
+    .go{
+        display: none;
+    }
+    .AppetizersWrapper, .BurgersAndHandheldsWrapper, .BeveragesMobileWrapper,
+    .AlcoholicBeveragesWrapper{
+        display: block;
+    }
+    .ImageWrapper{
+        display: flex;
+    }
+}
+u{
+    padding: 6px;
+    background-color: #016FB9;
+}
+
+p{
+    padding-bottom: 6px;
+}
+.Appetizers{
+    display: flex;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #D9d9d9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.Burgers{
+    display: flex;
+    justify-content: space-around;
+}
+.imageResize{
+    width: 100%;
+    height: auto;
+}
+.BurgerMiddle{
+    text-align: center;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+.Burgies{
+    display: flex;
+}
+.border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D9d9d9;
+}
+.padThis{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

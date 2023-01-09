@@ -1,0 +1,100 @@
+body, html {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.ComingSoon{
+    padding-top: 20rem;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+}
+.ComingSoons{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 8rem;
+}
+.info{
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.imageHead{
+    height: auto;
+    width: 100%;
+    padding-top: 110px;
+}
+.bowlingBalls, .Accessories, .Bags{
+    display: flex;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.balls, .b, .s{
+    text-align: center;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px 1px;
+    background-color: rgba(35, 87, 137, .6);
+    padding-bottom: 2vh;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+}
+.side{
+    padding-top: 10vh;
+}
+.side2{
+    padding-top: 6vh;
+}
+.side3{
+    padding-top: 5vh;
+}
+@media only screen and (max-width: 1000px)
+{
+    .one, .two, .three{
+        display: none;
+    }
+    .balls, .b, .s{
+        display: none;
+    }
+    .p{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .h{
+        font-size: 22px;
+    }
+    .bowlingBalls, .Accessories, .Bags{
+        padding-bottom: 0;   
+       }
+
+}
+
+.mobileShop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.one, .two, .three{
+    background-color: #235789;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+    @media only screen and (min-width: 1000px){
+        .one, .two, .three{
+            display: none;
+        }
+        br{
+            display: none;
+        }
+        .bowlingBalls, .Accessories, .Bags{
+            padding-bottom: 5vh;   
+            padding-top: 5vh;
+           }
+    }

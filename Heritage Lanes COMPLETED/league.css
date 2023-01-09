@@ -1,0 +1,144 @@
+body, html{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    opacity: 1;  
+}
+/* html{
+    overflow: scroll;
+    overflow-x: hidden;
+} */
+/* ::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: black  ;
+}
+::-webkit-scrollbar-track{
+    opacity: .5;
+} */
+.LeaguesIntro{
+    padding-top: 3rem;
+}
+.LeaguesMainPhoto{
+    padding-top: 6rem;
+}
+.LeaguesMainPhoto img{
+    height: auto;
+    padding-top: 14px;
+    width: 100%;
+}
+.LeagueCard{
+display: flex;
+padding-bottom: 2rem;
+width: 80%;
+justify-content: center;
+margin:0 auto;
+}
+.LeagueName{
+    background-color: #016FB9;
+    text-align: center;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    padding-bottom: 10px;
+}
+.LeagueDescription{
+    background-color: rgba(1, 111, 185, .4);
+    text-align: center;
+    padding: 2rem;
+}
+.LeagueTimes{
+    padding-top: 3rem;
+}
+.SignUp{
+    display: flex;
+    background-color: rgba(1, 111, 185, .4);
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+.SignUpButton{
+    background-color: #CB435B;
+    border: none;
+    text-align: center;
+    width: 225px;
+    height: 75px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+
+}
+button:hover{
+    color: white;
+    opacity: .8;
+}
+.HeritageLanesYouthHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+.YouthLeagueMissionStatement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
+}
+.IntroHeader, .IntroParagraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#YouthLeagueName{
+    width: 25%;
+}
+.leaguesForMobile{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .LeagueCard{
+        display: none;
+    }
+    .HeritageLanesYouthHeader{
+        display: none;
+    }
+    .YouthLeagueMissionStatement{
+        display: none;
+    }
+    .leaguesForMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .LeaguesIntro{
+        padding-top: 2rem;
+    }
+}
+button{
+    background-color: #F62228;
+    border: none;
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+#MixedFun, #MensClassic, #LadiesClassic {
+    width: 25%;
+}
+h2{
+    padding: 2rem;
+}
